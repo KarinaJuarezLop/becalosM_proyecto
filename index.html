@@ -5,12 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi proyecto final</title>
 </head>
+<style>
+    body 
+        {margin: 0;
+        padding: 0;}
+
+    .sidebar 
+        {height: 100vh;
+        width: 180px;
+        position: fixed;
+        nav-left: 0;
+        background-color: #ffd6ee;
+        padding-top: 10px;}
+
+    .sidebar ul 
+        {list-style-type: none;
+        padding: 0;
+        margin: 0;}
+
+    .sidebar li 
+        {padding: 15px;
+        text-align: center;}
+
+    .sidebar li a 
+        {text-decoration: none;
+        color: rgb(255, 27, 122);}
+    .content 
+        {padding: 20px;
+        margin-left: 200px;}
+</style>
 <body>
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#">Mi presentación y vida académica</a></li>
+            <li><a href="#">Habilidades blandas y hobbies</a></li>
+            <li><a href="#">Quiero conocerte</a></li>
+        </ul>
+    </nav>
     <header>
         <h1 style="text-align: center;">MI CV</h1>
-        <h2 style="text-align: center;">Karina JUarez</h2>
+        <h2 style="text-align: center;">Karina Juarez</h2>
     </header>
-    <div>
+    <div class="content" >
         <p> Hola! Este es mi primera página web, espero les guste,
         primero quiero platicarles sobre mi, nací en Guadalajara 
         pero actualmente estoy viviendo en San Luis Potosí, estudio
