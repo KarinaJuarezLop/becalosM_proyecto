@@ -5,21 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
+<style>
+    body 
+        {margin: 0;
+        padding: 0;}
+
+    .content 
+        {padding: 20px;
+        margin-left: 250px;}
+
+    body 
+        {background-color: rgb(189, 231, 255);}
+</style>
 <body>
     <form>
+        <div class="content">
         <p><strong> Este es un formulario, yo tambien quiero conocerte! </strong></p>
         <label> Nombre: </label>
         <input type="text" />
-        <div> 
+        </div>
+        <div class="content"> 
             <label>Fecha de nacimiento: </label>
             <input type="date" />
         </div>
-        <div>
+        <div class="content">
             <label> Sexo: </label>
             <input type="radio" name="sexo" value="Mujer" /> Mujer
             <input type="radio" name="sexo" value="Hombre" /> Hombre
         </div>
-        <div>
+        <div class="content">
             <label> Cuales son tus hobbies? </label>
             <input type="checkbox" name="cuales son tus hobbies?" value="Leer" /> Leer
             <input type="checkbox" name="cuales son tus hobbies?" value="Cocina" /> Cocinar
