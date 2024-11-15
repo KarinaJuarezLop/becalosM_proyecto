@@ -36,25 +36,19 @@
         {padding: 20px;
         margin-left: 250px;}
 
-    .texto-con-cuadro 
-        {background-color: rgb(150, 183, 194);
-        padding: 20px;
-        border: 2px solid rgb(255, 255, 255);
-        position: absolute;}
-
     body 
         {background-color: rgb(201, 199, 218);}
 </style>
 <body>
-    <nav class="sidebar">
+    <nav id="sidebar" class="sidebar">
         <h4 style="text-align: center;font-family: sans-serif;">Estas son las secciones de mi CV:</h4>
         <ul>
-            <li> <p style="font-family: sans-serif;"> ⭐Sobre mi</p></li>
-            <li> <p style="font-family: sans-serif;"> 🔠Idiomas</p></li>
-            <li> <p style="font-family: sans-serif;"> 📚Educación</p></li>
-            <li> <p style="font-family: sans-serif;"> 💻Competencias académicas</p></li>
-            <li> <p style="font-family: sans-serif;"> 💡Competencias personales</p></li>
-            <li> <p style="font-family: sans-serif;"> 🚲Hobbies</p></li>
+            <li><p style="font-family: sans-serif;"><a href="#sobremi">⭐Sobre mi</a></p></li>
+            <li> <p style="font-family: sans-serif;"><a href="#idiomas">🔠Idiomas</a></p></li>
+            <li> <p style="font-family: sans-serif;"><a href="#educacion">📚Educación</a></p></li>
+            <li> <p style="font-family: sans-serif;"><a href="#academicas">💻Competencias académicas</a></p></li>
+            <li> <p style="font-family: sans-serif;"><a href="#personales">💡Competencias personales</a></p></li>
+            <li> <p style="font-family: sans-serif;"><a href="#hobbies">🚲Hobbies</a></p></li>
             <p style="text-align: center;font-family: sans-serif;"><strong>Entra a la siguiente página:</strong></p>
             <li><a href="Formulario.html"><u><p style="font-family: sans-serif;"> 📝Quiero conocerte</p></u></a></li>
         </ul>
@@ -63,6 +57,7 @@
         <h1 style="text-align: center;font-family: sans-serif;">MI CV</h1>
         <h2 style="text-align: center;font-family: sans-serif;">Karina Juarez</h2>
     </header>
+    <section id="sobremi">
     <div class="content" >
         <img 
         src="./fotoyo.jpeg" width="220" height="230" style="float: right;"
@@ -76,6 +71,8 @@
         <p style="font-family: sans-serif;">Fecha de nacimiento: 18/11/2004</p>
         <P style="font-family: sans-serif;">Correo: a356313@alumnos.uaslp.mx</P>
     </div>
+    </section>
+    <section id="idiomas">
     <div class="content">
     <p><strong>IDIOMAS:</strong></p>
     <ul>
@@ -84,9 +81,11 @@
         <li><p style="font-family: sans-serif;">Francés (B1)</p></li>
     </ul>
     </div>
+    </section>
+    <section id="educacion">
     <div class="content">
         <img 
-        src="https://repositorioinstitucional.uaslp.mx/xmlui/bitstream/id/16b6b585-e964-4850-bcf9-a41c950cb271/logo_facultad%20de%20ciencias%20quimicas.png?sequence=-1" width="220" height="250" style="float: right;"
+        src="https://repositorioinstitucional.uaslp.mx/xmlui/bitstream/id/16b6b585-e964-4850-bcf9-a41c950cb271/logo_facultad%20de%20ciencias%20quimicas.png?sequence=-1" width="230" height="250" style="float: right;"
         alt="Escudo FCQ" />
         <p> <strong>EDUCACIÓN:</strong></p>
         <ul>
@@ -108,6 +107,8 @@
             <p style="font-family: sans-serif;"></p>Promedio 87</p>
         </ul>
     </div>
+    </section>
+    <section id="academicas">
     <div class="content">
         <p> <strong>COMPETENCIAS ACADÉMICAS:</strong> </p>
         <ol>
@@ -122,6 +123,8 @@
             <li><P style="font-family: sans-serif;">Curso en gestión de proyectos con metodologías ágiles y enfoques Lean</P></li>
         </ol>
     </div>
+    </section>
+    <section id="personales">
     <div class="content">
         <p> <strong>COMPETENCIAS PERSONALES:</strong> </p>
         <ol>
@@ -132,6 +135,8 @@
             <li><P style="font-family: sans-serif;">Proactividad</P></li>
         </ol>
     </div>
+    </section>
+    <section id="hobbies">
     <div class="content">
         <p> <strong>HOBBIES:</strong> </p>
         <ol>
@@ -141,5 +146,6 @@
             <li><P style="font-family: sans-serif;">Viajar</P></li>
         </ol>
     </div>
+    </section>
 </body>
 </html>
